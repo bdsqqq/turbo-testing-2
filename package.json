@@ -2,7 +2,7 @@
   "name": "create-t3-turbo",
   "private": true,
   "engines": {
-    "node": ">=18.0.0"
+    "node": "16"
   },
   "packageManager": "pnpm@7.30.0",
   "scripts": {
