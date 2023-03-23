@@ -1,5 +1,5 @@
 
-> test-utils@1.0.0 build C:\Users\igor.h.bedesqui\personalwww\turbo-testing-2\packages\test-utils
+> @bdsqqq/test-utils@1.1.0 build C:\Users\igor.h.bedesqui\personalwww\turbo-testing-2\packages\test-utils
 > tsup src/index.ts --format cjs --dts
 
 [34mCLI[39m Building entry: src/index.ts
@@ -8,7 +8,7 @@
 [34mCLI[39m Target: node14
 [34mCJS[39m Build start
 [32mCJS[39m [1mdist\index.js [22m[32m1.12 KB[39m
-[32mCJS[39m ⚡️ Build success in 147ms
+[32mCJS[39m ⚡️ Build success in 90ms
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 1418ms
+[32mDTS[39m ⚡️ Build success in 1702ms
 [32mDTS[39m [1mdist\index.d.ts [22m[32m138.00 B[39m

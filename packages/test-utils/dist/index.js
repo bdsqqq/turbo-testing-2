@@ -25,7 +25,7 @@ __export(src_exports, {
 });
 module.exports = __toCommonJS(src_exports);
 var add = (a, b) => {
-  return a + b;
+  return a * b;
 };
 var subtract = (a, b) => {
   return a - b;

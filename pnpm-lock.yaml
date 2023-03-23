@@ -28,6 +28,7 @@ importers:
 
   apps/nextjs:
     specifiers:
+      '@bdsqqq/test-utils': workspace:*
       '@tanstack/react-query': ^4.20.2
       '@trpc/client': ^10.9.0
       '@trpc/next': ^10.9.0
@@ -51,10 +52,10 @@ importers:
       react-dom: 18.2.0
       superjson: 1.9.1
       tailwindcss: ^3.2.0
-      test-utils: workspace:*
       typescript: ^4.9.5
       zod: ^3.20.6
     dependencies:
+      '@bdsqqq/test-utils': link:../../packages/test-utils
       '@tanstack/react-query': 4.28.0_biqbaboplfbrettd7655fr4n2y
       '@trpc/client': 10.18.0_@trpc+server@10.18.0
       '@trpc/next': 10.18.0_fk7ybuwqrs7skzzxcj6wjc5c3i
@@ -64,7 +65,6 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       superjson: 1.9.1
-      test-utils: link:../../packages/test-utils
       zod: 3.21.4
     devDependencies:
       '@types/eslint': 8.21.3
